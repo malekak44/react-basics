@@ -1,0 +1,30 @@
+.users {
+    margin: 5rem auto 3rem;
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user {
+    width: 16rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.user-img-div {
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.user img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.user img:hover {
+    transform: scale(1.3);
+}

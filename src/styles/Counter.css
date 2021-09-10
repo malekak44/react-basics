@@ -1,0 +1,12 @@
+#value {
+    font-size: 5rem;
+    margin-top: 0;
+}
+
+.btn-container {
+    width: 20rem;
+    display: flex;
+    margin: 0 auto 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
