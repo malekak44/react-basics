@@ -7,6 +7,7 @@ import Memo from './components/Memo';
 import Reducer from './components/Reducer';
 import Cleanup from './components/Cleanup';
 import Callback from './components/Callback';
+import Class from './components/Class';
 
 export default function App() {
   const [users, setUsers] = useState([]);
@@ -27,6 +28,7 @@ export default function App() {
       <Reducer />
       <Cleanup />
       <Callback />
+      <Class />
     </ThemeProvider>
   )
 }

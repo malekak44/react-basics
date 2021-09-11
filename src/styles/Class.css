@@ -1,0 +1,14 @@
+#class {
+    width: 200px;
+    display: grid;
+    height: 200px;
+    color: white;
+    cursor: pointer;
+    place-items: center;
+    border-radius: 6px;
+    margin: 4rem auto 5rem;
+}
+
+.heart {
+    font-size: 5rem;
+}
