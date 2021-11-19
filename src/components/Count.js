@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Count = ({ value }) => {
-    console.log("taetae")
 
     return (
         <div>
